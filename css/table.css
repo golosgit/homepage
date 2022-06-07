@@ -1,0 +1,35 @@
+.table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.table__caption {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.table__caption--small {
+  font-size: small;
+}
+
+.table__row:hover {
+  background-color: hsl(123, 100%, 94%);
+}
+
+.table__cell {
+  border: 1px solid #120f0f;
+  padding: 12px 30px;
+}
+
+.table__cell--smallerPadding {
+  padding: 12px 15px;
+}
+
+.table--header {
+  background-color: #beffc1;
+}
+
+.table--top8 {
+  display: none;
+}

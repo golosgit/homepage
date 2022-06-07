@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 900px;
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 0 50px;
+  font-family: "Roboto Flex", sans-serif;
+  line-height: 1.4;
+}
+
+.body__description {
+  margin: 5px auto 20px;
+  padding-left: 30px;
+}
+
+.body--alignCenter {
+  text-align: center;
+}
+
+.container {
+  overflow-x: auto;
+}
+
+.body__button {
+  margin: 25px auto 0;
+  padding: 10px;
+  min-width: 200px;
+  font-weight: bold;
+  background-color: #beffc1;
+  border: 1px solid #120f0f;
+  text-align: center;
+}
+
+.body__footer {
+  margin: 20px;
+  text-align: center;
+}
