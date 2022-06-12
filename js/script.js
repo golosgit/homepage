@@ -5,7 +5,7 @@
 
   const hideTableRows = () => {
     const buttonText = document.querySelector(".js-buttonText");
-    const table = document.querySelector(".table");
+    const table = document.querySelector(".js-table");
 
     buttonText.innerText =
       buttonText.innerText === "tylko top 4" ? "top 8" : "tylko top 4";
@@ -15,7 +15,7 @@
   };
 
   const init = () => {
-    const button = document.querySelector(".body__button");
+    const button = document.querySelector(".js-button");
 
     welcomeMessage();
 
