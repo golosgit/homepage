@@ -40,6 +40,13 @@ body {
   text-align: center;
 }
 
+.body__button:hover {
+  background-color: hsl(123, 100%, 82%);
+}
+.body__button:active {
+  background-color: hsl(123, 100%, 75%);
+}
+
 .body__footer {
   margin: 20px;
   text-align: center;
